@@ -35,7 +35,6 @@ def inputchecking():
     except AssertionError:
         return 'Данная операция не поддерживается'
 
-
 arg_list = inputchecking()
 
 try:
@@ -44,5 +43,3 @@ try:
     print(calc)
 except AssertionError:
     print(arg_list)
-
-
